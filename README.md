@@ -8,7 +8,7 @@ acklen/cypress/videos/
 
 To Run the test:
 
-Enter command on Terminal: npm run
+Enter command on Terminal: npm run scripts
 
 Sample images of the report running on terminal
 
