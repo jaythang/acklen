@@ -1,4 +1,13 @@
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps";
+before (function (){
+
+    cy.log ('Before')
+} )
+after (function (){
+
+    cy.log ('After')
+} )
+
 
     Given (/^That I go to the Site$/, () => {
 

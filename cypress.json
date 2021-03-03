@@ -1,12 +1,14 @@
 {
+  "projectId": "t1rcwu",
   "testFiles": "**/*.feature",
-  "reporter": "mochawesome",
+  "reporter": "cypress-multi-reporters",
   "reporterOptions": {
-    "reportDir": "cypress/report/mochawesome-report",
-    "overwrite": true,
+    "reporterEnabled": "mochawesome",
+    "reportDir": "cypress/reports/mocha",
+    "overwrite": false,
     "html": true,
-    "json": false,
+    "json": true,
     "timestamp": "mmddyyyy_HHMMss"
-  },
-  "projectId": "t1rcwu"
+  }
+  
 }

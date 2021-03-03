@@ -1,5 +1,12 @@
 import {Given, When, Then} from "cypress-cucumber-preprocessor/steps";
+before (function (){
 
+  cy.log ('Before')
+} )
+after (function (){
+
+  cy.log ('After')
+} )
   Given(/^I visit carpark calc and select Short Term Parking$/, () => {
     cy.viewport(1536, 758)
     cy.visit('https://www.shino.de/parkcalc/index.php')
