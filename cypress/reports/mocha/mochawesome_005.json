@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-03-03T06:02:41.442Z",
-    "end": "2021-03-03T06:02:50.506Z",
-    "duration": 9064,
+    "start": "2021-03-03T06:30:07.921Z",
+    "end": "2021-03-03T06:30:13.659Z",
+    "duration": 5738,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,27 +18,27 @@
   },
   "results": [
     {
-      "uuid": "9e7e1a9a-5601-48eb-8b05-c8c96bafa6fc",
+      "uuid": "9aabc982-bc01-4239-aa23-101dd7e4df17",
       "title": "",
-      "fullFile": "cypress\\integration\\ValetParking5hrs.feature",
-      "file": "cypress\\integration\\ValetParking5hrs.feature",
+      "fullFile": "cypress\\integration\\ParkingLotOptions.feature",
+      "file": "cypress\\integration\\ParkingLotOptions.feature",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "124e2b3c-ac0f-4d63-964b-f896987a16de",
-          "title": "I want to checkin for a Valet Parking for 5 hrs",
+          "uuid": "40870077-8ce8-4b47-b824-99bee5648e69",
+          "title": "I want to Check if all Parking Lot Options are available",
           "fullFile": "",
           "file": "",
           "beforeHooks": [],
           "afterHooks": [],
           "tests": [
             {
-              "title": "Valet Parking for 5 hours",
-              "fullTitle": "I want to checkin for a Valet Parking for 5 hrs Valet Parking for 5 hours",
+              "title": "Selecting all Car Park Options",
+              "fullTitle": "I want to Check if all Parking Lot Options are available Selecting all Car Park Options",
               "timedOut": null,
-              "duration": 5815,
+              "duration": 5682,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
               "err": {},
-              "uuid": "5f9ea925-5d77-4363-a63e-5a9893afd056",
-              "parentUUID": "124e2b3c-ac0f-4d63-964b-f896987a16de",
+              "uuid": "b0f9f522-bbad-47b7-ae8a-9da92f7ba8e1",
+              "parentUUID": "40870077-8ce8-4b47-b824-99bee5648e69",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "5f9ea925-5d77-4363-a63e-5a9893afd056"
+            "b0f9f522-bbad-47b7-ae8a-9da92f7ba8e1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 5815,
+          "duration": 5682,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
@@ -84,7 +84,7 @@
       "options": {
         "quiet": false,
         "reportFilename": "mochawesome",
-        "saveHtml": true,
+        "saveHtml": false,
         "saveJson": true,
         "consoleReporter": "spec",
         "useInlineDiffs": false,
@@ -94,7 +94,12 @@
     },
     "marge": {
       "options": {
-        "id": "default"
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
       },
       "version": "5.2.0"
     }

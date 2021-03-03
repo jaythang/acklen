@@ -1,0 +1,339 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-03-03T06:29:31.814Z",
+    "end": "2021-03-03T06:30:51.282Z",
+    "duration": 29653,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "e663e71b-fed4-4276-a8ea-2adf9c4612fa",
+      "title": "",
+      "fullFile": "cypress\\integration\\InvalidLeavingDate.feature",
+      "file": "cypress\\integration\\InvalidLeavingDate.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "52427990-dfaa-4011-93ba-e99daffa86f2",
+          "title": "Invalid Leaving Date",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Input Invalid Leaving Date",
+              "fullTitle": "Invalid Leaving Date Input Invalid Leaving Date",
+              "timedOut": null,
+              "duration": 5767,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c143d169-afd1-4011-a30c-2502b60183f0",
+              "parentUUID": "52427990-dfaa-4011-93ba-e99daffa86f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "c143d169-afd1-4011-a30c-2502b60183f0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5767,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "9aabc982-bc01-4239-aa23-101dd7e4df17",
+      "title": "",
+      "fullFile": "cypress\\integration\\ParkingLotOptions.feature",
+      "file": "cypress\\integration\\ParkingLotOptions.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "40870077-8ce8-4b47-b824-99bee5648e69",
+          "title": "I want to Check if all Parking Lot Options are available",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Selecting all Car Park Options",
+              "fullTitle": "I want to Check if all Parking Lot Options are available Selecting all Car Park Options",
+              "timedOut": null,
+              "duration": 5682,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b0f9f522-bbad-47b7-ae8a-9da92f7ba8e1",
+              "parentUUID": "40870077-8ce8-4b47-b824-99bee5648e69",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b0f9f522-bbad-47b7-ae8a-9da92f7ba8e1"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5682,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "7953a5d2-48d7-4607-8a98-34853bedf0ef",
+      "title": "",
+      "fullFile": "cypress\\integration\\ValetParking1day.feature",
+      "file": "cypress\\integration\\ValetParking1day.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "628b5933-b06c-44da-8d27-825827ab8ca3",
+          "title": "I want to checkin for a Valet Parking for 1 day",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valet Parking for 1 day",
+              "fullTitle": "I want to checkin for a Valet Parking for 1 day Valet Parking for 1 day",
+              "timedOut": null,
+              "duration": 5954,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "33ef4972-260b-4526-85b1-6c37033270fb",
+              "parentUUID": "628b5933-b06c-44da-8d27-825827ab8ca3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "33ef4972-260b-4526-85b1-6c37033270fb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5954,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "96ff153a-ddc3-4de2-8a2c-4a9fe5cf062f",
+      "title": "",
+      "fullFile": "cypress\\integration\\ValetParking5hrs.feature",
+      "file": "cypress\\integration\\ValetParking5hrs.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "79a45b7a-fdcf-4b36-918a-73d4496b2a58",
+          "title": "I want to checkin for a Valet Parking for 5 hrs",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valet Parking for 5 hours",
+              "fullTitle": "I want to checkin for a Valet Parking for 5 hrs Valet Parking for 5 hours",
+              "timedOut": null,
+              "duration": 5720,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "cf1449e9-ff31-45ea-8afe-9a9ae8b72ae8",
+              "parentUUID": "79a45b7a-fdcf-4b36-918a-73d4496b2a58",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cf1449e9-ff31-45ea-8afe-9a9ae8b72ae8"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5720,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "da032488-08fa-466c-a568-0befbe2aea08",
+      "title": "",
+      "fullFile": "cypress\\integration\\CorrectLeavedate.feature",
+      "file": "cypress\\integration\\CorrectLeavedate.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "611a1318-341f-4786-b9bd-528e61438c95",
+          "title": "I want to Enter a correct Date",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Enter Correct Date",
+              "fullTitle": "I want to Enter a correct Date Enter Correct Date",
+              "timedOut": null,
+              "duration": 6530,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "362ab984-a8ce-40f7-a889-431564c5fb50",
+              "parentUUID": "611a1318-341f-4786-b9bd-528e61438c95",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "362ab984-a8ce-40f7-a889-431564c5fb50"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6530,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

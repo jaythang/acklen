@@ -1,14 +1,14 @@
 {
-  "projectId": "t1rcwu",
-  "testFiles": "**/*.feature",
+  "baseUrl" : "https://www.shino.de/parkcalc/index.php",
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
-    "reporterEnabled": "mochawesome",
-    "reportDir": "cypress/reports/mocha",
-    "overwrite": false,
-    "html": true,
-    "json": true,
-    "timestamp": "mmddyyyy_HHMMss"
+      "reporterEnabled": "mochawesome",
+      "mochawesomeReporterOptions": {
+          "reportDir": "cypress/reports/mocha",
+          "quite": true,
+          "overwrite": false,
+          "html": false,
+          "json": true
+      }
   }
-  
 }
