@@ -7,8 +7,8 @@
     
     "pretest": "npm run clean:reports",
     "scripts": "cypress run",
-    "combine-reports": "mochawesome-merge --reportDir cypress/reports/mocha/mochareports/reports.json",
-    "generate-report": "merge cypress/reports/mochareports.json -f report -o cypress/reports/mochareports",
+    
+    "generate-report": "report -o cypress/reports/mochareports",
     "posttest": "npm run combine-reports && npm run generate-report",
     "test": "npm run scripts || npm run posttest"
   },
